@@ -1,0 +1,8 @@
+Feature 3({'republican': 113, 'democrat': 186})
++---(y)Feature 2({'republican': 109, 'democrat': 6})
+    +---(y)Feature 6({'republican': 12, 'democrat': 4}) 
+        +---(n)Feature 1({'republican': 2, 'democrat': 4})
+            +---(n)Feature 8({'republican': 1, 'democrat': 1})
+                +---(y)Closed Decision Leaf : {'republican': 0, 'democrat': 1}
+                +---(n)Closed Decision Leaf : {'republican': 1, 'democrat': 0}
+                +---(?)Closed Decision Leaf : {'republican': 0, 'democrat': 0}
